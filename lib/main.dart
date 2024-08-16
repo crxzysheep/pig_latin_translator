@@ -34,7 +34,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   String inputText = "text shows here";
   final _vowelList = <String> {'a', 'e', 'i', 'o', 'u'};
-  TextEditingController _controller = TextEditingController();
+  // TextEditingController _controller = TextEditingController();
 
   void _translateText(String text) {
     setState(() {
